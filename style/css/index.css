@@ -1,0 +1,23 @@
+html{
+	scroll-behavior: smooth;
+}
+.heading{
+	text-align: center;
+}
+
+.mission h1{
+	text-align: center;
+	
+}
+.foot{
+	background-color: #222;
+}
+footer {
+	color: #ccc;
+}
+.copyright{
+	background-color: #000;
+}
+.gototop a:hover{
+	color:#fff;
+}
