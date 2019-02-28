@@ -17,6 +17,7 @@
 
   	<!-- Font -->
   	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 	<!-- CSS Time Linked -->
 	<link href="style/css/index.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 	
@@ -36,11 +37,11 @@
 
 		<div class="collapse navbar-collapse justify-content-center" id="navdrop">
 			<ul class="navbar-nav">
-				<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
 				<li class="nav-item"><a href="#about_des" class="nav-link">About Us</a></li>
-				<li class="nav-item"><a href="#contact_footer" class="nav-link">Contact us</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Our Products</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Our Team</a></li>
+				<li class="nav-item"><a href="contact.php" class="nav-link">Contact us</a></li>
+				<li class="nav-item"><a href="product.html" class="nav-link">Our Products</a></li>
+				<li class="nav-item"><a href="team.html" class="nav-link">Our Team</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -97,8 +98,8 @@
 					<img src="style/images/atta.jpeg" class="img-fluid" width="100%">
 				</div>
 				<div class="col-md-8">
-					<p>Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
-					<p>
+					<p style="font-family: 'Satisfy', cursive; font-size: 25px;">Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
+					<p style="font-family: 'Satisfy', cursive; font-size: 25px;">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -114,7 +115,7 @@
 		<div class="container-fluid">
 		 	<div class="mission p-5 text-light col-md-6 mx-auto">
 		 		<h1 style="font-family: 'Lobster', cursive;">OUR MISSION</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p style="font-family: 'Satisfy', cursive; font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -169,7 +170,11 @@
 					</div>
 					<div class="col-md-3 p-5 gototop">
 						<h3 class="text-warning" style="font-family: 'Lobster',cursive; text-align: center;">Go to Top</h3>
-						<a href="#ontop" style="text-decoration: none;"><i class="fas fa-arrow-circle-up mt-5 mx-auto d-block" style="font-size: 60px;text-align: center;color: #0492c2;"></i></a>
+						<a href="#ontop" id="arrow_up" style="text-decoration: none;font-size: 60px;text-align: center;color: #0492c2;"
+						onmouseover="document.getElementById('arrow_up').style.color='white'";
+						onmouseleave="document.getElementById('arrow_up').style.color='#0492c2'"; 
+
+						><i class="fas fa-arrow-circle-up mt-5 mx-auto d-block" ></i></a>
 					</div>
 				</div>
 			</div>
