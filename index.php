@@ -17,7 +17,7 @@
 
   	<!-- Font -->
   	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<!-- CSS Time Linked -->
 	<link href="style/css/index.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 	
@@ -98,8 +98,8 @@
 					<img src="style/images/atta.jpeg" class="img-fluid" width="100%">
 				</div>
 				<div class="col-md-8">
-					<p style="font-family: 'Satisfy', cursive; font-size: 25px;">Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
-					<p style="font-family: 'Satisfy', cursive; font-size: 25px;">
+					<p style="font-family: 'Roboto Slab', serif; font-size: 25px;">Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
+					<p style="font-family: 'Roboto Slab', serif; font-size: 25px;">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -115,7 +115,7 @@
 		<div class="container-fluid">
 		 	<div class="mission p-5 text-light col-md-6 mx-auto">
 		 		<h1 style="font-family: 'Lobster', cursive;">OUR MISSION</h1>
-				<p style="font-family: 'Satisfy', cursive; font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<p style="font-family: 'Roboto Slab', serif; font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -157,9 +157,9 @@
 				<div class="row">
 					<div class="col-md-6 p-5">
 						<h3 style="font-family: 'Lobster', cursive;" class="text-warning">Office Details : </h3>
-						<p><i class="fas fa-home text-light"> G.t. Road, Moga Side, Jagraon-district Ludhiana, Opposite Bhora Saheb Gurudwara,, Jagraon - 142026, Punjab, India</i> </p>
-						<p><i class="fas fa-phone text-light"> +91-7696012078,+91-7009921409</i></p>
-						<p><i class="fas fa-envelope text-light"> srfm759@gmail.com</i></p>
+						<li style="list-style-type: none;"><i class="fas fa-home text-light"> G.t. Road, Moga Side, Jagraon-district Ludhiana, Opposite Bhora Saheb Gurudwara,, Jagraon - 142026, Punjab, India</i> </li>
+						<li style="list-style-type: none;"><i class="fas fa-phone text-light"> +91-7696012078,+91-7009921409</i></li>
+						<li style="list-style-type: none;"><i class="fas fa-envelope text-light"> srfm759@gmail.com</i></li>
 					</div>
 					<div class="col-md-3 p-5">
 						<h3 style="font-family: 'Lobster', cursive;" class="text-warning">Social Links : </h3>
