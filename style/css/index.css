@@ -21,3 +21,7 @@ footer {
 .gototop a:hover{
 	color:#fff;
 }
+.contact_banner{
+	background-image: background-image: linear-gradient( #0492c2,#fff);
+	height: 200px;
+}

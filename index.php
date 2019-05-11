@@ -98,8 +98,8 @@
 					<img src="style/images/atta.jpeg" class="img-fluid" width="100%">
 				</div>
 				<div class="col-md-8">
-					<p style="font-family: 'Roboto Slab', serif; font-size: 25px;">Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
-					<p style="font-family: 'Roboto Slab', serif; font-size: 25px;">
+					<p style="font-family: 'Roboto Slab', serif; font-size: 20px;">Registered in 2011, Sai Roller Flour Mills has made a name for itself in the list of top suppliers of Food Products, in India. The supplier company is located in Jagraon, Punjab and is one of the leading sellers of listed products.Sai Roller Flour Mills is listed in Trade India's list of verified sellers offering supreme quality of Fortified Whole Wheat Atta, , etc. Buy Food Products in bulk from us for the best quality products and service.</p>
+					<p style="font-family: 'Roboto Slab', serif; font-size: 20px;">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -111,7 +111,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="para" style="background-image: url(style/images/para.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
+	<div class="para animated fadeInUp" style="background-image: url(style/images/para.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">
 		<div class="container-fluid">
 		 	<div class="mission p-5 text-light col-md-6 mx-auto">
 		 		<h1 style="font-family: 'Lobster', cursive;">OUR MISSION</h1>
